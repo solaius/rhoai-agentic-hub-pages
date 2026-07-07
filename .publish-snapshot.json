@@ -1,1 +1,3 @@
-{}
+{
+  "mcp-registry/catalog-deck": "features/mcp-registry/enablement/mcp-registry-catalog-deck"
+}
