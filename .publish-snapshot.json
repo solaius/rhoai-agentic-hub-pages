@@ -1,5 +1,15 @@
 {
   "agent-memory/architecture-options": "features/agent-memory/enablement/agent-memory-architecture-options",
   "agent-memory/series": "features/agent-memory/enablement/agent-memory-series",
-  "mcp-registry/catalog-deck": "features/mcp-registry/enablement/mcp-registry-catalog-deck"
+  "mcp-ecosystem/deck": "features/mcp-ecosystem/enablement/mcp-ecosystem-deck",
+  "mcp-ecosystem/ingestion-pipeline": "features/mcp-ecosystem/enablement/ingestion-pipeline",
+  "mcp-ecosystem/mcp-catalog-blog-preview": "features/mcp-ecosystem/enablement/mcp-catalog-blog-preview",
+  "mcp-gateway/authz-audit": "features/mcp-gateway/enablement/authz-audit",
+  "mcp-gateway/overview": "features/mcp-gateway/enablement/mcp-gateway-overview",
+  "mcp-gateway/presentation": "features/mcp-gateway/enablement/mcp-gateway-presentation",
+  "mcp-registry/catalog-deck": "features/mcp-registry/enablement/mcp-registry-catalog-deck",
+  "mcp-registry/overview": "features/mcp-registry/enablement/registry-overview",
+  "mcp-registry/ui-prototype": "features/mcp-registry/enablement/registry-ui-prototype",
+  "narrative/mcp-spec-rc-impact": "narrative/enablement/mcp-spec-rc-impact",
+  "skills-registry/strategy-presentation": "features/skills-registry/enablement/strategy-presentation"
 }
