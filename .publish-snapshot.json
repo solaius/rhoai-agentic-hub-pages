@@ -1,3 +1,5 @@
 {
+  "agent-memory/architecture-options": "features/agent-memory/enablement/agent-memory-architecture-options",
+  "agent-memory/series": "features/agent-memory/enablement/agent-memory-series",
   "mcp-registry/catalog-deck": "features/mcp-registry/enablement/mcp-registry-catalog-deck"
 }
