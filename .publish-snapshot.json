@@ -5,6 +5,12 @@
     "published": null,
     "source": "features/agent-memory/enablement/agent-memory-architecture-options"
   },
+  "agent-memory/rfe-narrative": {
+    "badge": "new",
+    "hash": "5ddc4aaf1eae7bc678ee5066c0d116d9b5af9c1c5dd500cb6a81a518bc4cc854",
+    "published": "2026-07-11",
+    "source": "features/agent-memory/enablement/agent-memory-rfe-narrative"
+  },
   "agent-memory/series": {
     "badge": null,
     "hash": "2e861b3c6c1ec68513f0ff458212ba7c543acd633a78c3a710bac4d74eecdeda",
