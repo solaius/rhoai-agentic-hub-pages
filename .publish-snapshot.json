@@ -18,9 +18,9 @@
     "source": "features/mcp-ecosystem/enablement/mcp-ecosystem-deck"
   },
   "mcp-ecosystem/hub": {
-    "badge": null,
-    "hash": "c9617a45b50d4b5448e19b3dec77f7fad8690a1f787cda3ddca833578bde3c80",
-    "published": null,
+    "badge": "updated",
+    "hash": "b7731666dbc51b34ca9dd419edc3930a5ccee57c561c880060124d23b054fbfa",
+    "published": "2026-07-11",
     "source": "features/mcp-ecosystem/enablement/management-hub"
   },
   "mcp-ecosystem/ingestion-pipeline": {
@@ -55,7 +55,7 @@
   },
   "mcp-gateway/rhcl": {
     "badge": "updated",
-    "hash": "4df73cc289dc0dd29d16d4235d07e10a882d5afbd7fc9ae772e89f16179fcb63",
+    "hash": "1b556efdf6173007d6830566fa4b86fb886c60b6f69d85d7e4564b8208698875",
     "published": "2026-07-11",
     "source": "features/mcp-gateway/enablement/rhcl-hub"
   },
