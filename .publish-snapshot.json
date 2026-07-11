@@ -23,12 +23,6 @@
     "published": null,
     "source": "features/mcp-ecosystem/enablement/mcp-ecosystem-deck"
   },
-  "mcp-ecosystem/hub": {
-    "badge": "updated",
-    "hash": "1e5950bee1f2fd6348be30c4f558811940f8d287ee5c888792f6ac0af88ed137",
-    "published": "2026-07-11",
-    "source": "features/mcp-ecosystem/enablement/management-hub"
-  },
   "mcp-ecosystem/ingestion-pipeline": {
     "badge": null,
     "hash": "3dc204450df3962e8ed01b088dc76170fbc241f5bf243d9e889d10677a6f76d6",
@@ -58,12 +52,6 @@
     "hash": "762cb541ba35c12039a359d4fb223349a97285cacf785e3d98f7e65d8bb95d87",
     "published": null,
     "source": "features/mcp-gateway/enablement/mcp-gateway-presentation"
-  },
-  "mcp-gateway/rhcl": {
-    "badge": "updated",
-    "hash": "9ac1e6400a51126ad25ecf9ef7231c626690b23d520f137ffb8de1507f59d288",
-    "published": "2026-07-11",
-    "source": "features/mcp-gateway/enablement/rhcl-hub"
   },
   "mcp-registry/catalog-deck": {
     "badge": null,
