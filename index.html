@@ -3,33 +3,160 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>rhoai-agentic-hub — published artifacts</title>
+  <title>RHOAI Agentic Hub · Published artifacts</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 720px;
-           margin: 3rem auto; padding: 0 1rem; }
-    .meta { color: #666; font-size: .85rem; }
+    :root {
+      --bg-canvas: #151515; --bg-elevated: #1a1a1a; --bg-card: #202020;
+      --text-primary: #ffffff; --text-secondary: #d2d2d2; --text-muted: #8a8a8a;
+      --rh-red: #ee0000; --rh-blue-light: #4394e5;
+      --border-subtle: #333333;
+      --font-sans: "Red Hat Display", "Inter", -apple-system, "Segoe UI", system-ui, sans-serif;
+      --font-text: "Red Hat Text", "Inter", -apple-system, "Segoe UI", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg-canvas); color: var(--text-primary);
+           font-family: var(--font-text); line-height: 1.55; }
+    .hero { background: var(--bg-elevated); border-bottom: 3px solid var(--rh-red);
+            padding: 3rem 1.5rem 2.5rem; }
+    .hero-inner, .main-inner, .footer-inner { max-width: 1100px; margin: 0 auto; }
+    .hero h1 { font-family: var(--font-sans); font-size: 2.2rem; font-weight: 700; }
+    .hero .tagline { color: var(--text-secondary); font-size: 1.05rem;
+                     margin-top: .55rem; max-width: 46rem; }
+    .hero .stats { color: var(--text-muted); font-size: .82rem; margin-top: 1.1rem; }
+    main { padding: 1rem 1.5rem 4rem; }
+    .area { margin-top: 2.4rem; }
+    .area h2 { font-family: var(--font-sans); font-size: 1.22rem; font-weight: 600;
+               padding-bottom: .45rem; border-bottom: 1px solid var(--border-subtle); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+             gap: 1rem; margin-top: 1.1rem; }
+    .card { display: block; background: var(--bg-card);
+            border: 1px solid var(--border-subtle); border-radius: 8px;
+            padding: 1.1rem 1.2rem; text-decoration: none;
+            transition: border-color .15s ease, transform .15s ease; }
+    .card:hover { border-color: var(--rh-red); transform: translateY(-2px); }
+    .card h3 { color: var(--text-primary); font-family: var(--font-sans);
+               font-size: 1.02rem; font-weight: 600; }
+    .card p { color: var(--text-secondary); font-size: .85rem; margin-top: .45rem; }
+    .badge { display: inline-block; font-size: .62rem; font-weight: 700;
+             letter-spacing: .06em; text-transform: uppercase; border-radius: 3px;
+             padding: .12rem .45rem; margin-left: .5rem; vertical-align: middle; }
+    .badge--new { background: var(--rh-red); color: #ffffff; }
+    .badge--updated { color: var(--rh-blue-light);
+                      border: 1px solid var(--rh-blue-light); }
+    .empty { color: var(--text-muted); margin-top: 2.4rem; }
+    footer { border-top: 1px solid var(--border-subtle); color: var(--text-muted);
+             font-size: .78rem; padding: 1.2rem 1.5rem 2.5rem; }
+    footer a { color: var(--rh-blue-light); }
   </style>
 </head>
 <body>
-  <h1>rhoai-agentic-hub — published artifacts</h1>
-  <ul>
-      <li><a href="agent-memory/architecture-options/">Agent Memory Architecture — Options &amp; Roadmap</a> — Architecture options and roadmap deck for agent memory on RHOAI.</li>
-      <li><a href="agent-memory/series/">Agent Memory Presentation Series</a> — Six-part interlinked HTML series — starter guide, foundations, deep dives, enterprise use cases, and strategy — for agent memory &amp; knowledge enablement.</li>
-      <li><a href="mcp-ecosystem/deck/">The MCP Ecosystem on OpenShift AI</a> — Scrolling overview deck of the MCP ecosystem (Gateway, Catalog, Lifecycle Operator) with custom illustration assets.</li>
-      <li><a href="mcp-ecosystem/hub/">MCP Management Knowledge Hub</a> — 22-page enablement site covering the full MCP ecosystem (Gateway, Registry, Catalog, Lifecycle Operator) across understand/sell/build/govern/plan. Customer-engagement detail anonymized for public publication.</li>
-      <li><a href="mcp-ecosystem/ingestion-pipeline/">MCP Ingestion Pipeline</a> — Scrolling deck with an inline Cytoscape.js diagram of the end-to-end MCP ingestion pipeline.</li>
-      <li><a href="mcp-ecosystem/mcp-catalog-blog-preview/">Blog preview — &quot;The MCP catalog is here&quot;</a> — Red Hat blog mockup preview announcing the MCP catalog, with partner/vendor logo assets.</li>
-      <li><a href="mcp-gateway/authz-audit/">MCP Gateway — Tool-Call Authorization &amp; Audit</a> — Deck covering tool-call authorization and audit trail design.</li>
-      <li><a href="mcp-gateway/overview/">MCP Gateway — Enterprise Overview</a> — Scrolling one-pager positioning &quot;The Enterprise MCP Gateway&quot; for RHOAI.</li>
-      <li><a href="mcp-gateway/presentation/">MCP Gateway — Slide Deck</a> — Keyboard-navigated slide deck presenting MCP Gateway for RHOAI.</li>
-      <li><a href="mcp-gateway/rhcl/">MCP Gateway Knowledge Hub</a> — 23-page understand/sell/build/govern/plan enablement site for MCP Gateway on Red Hat Connectivity Link — architecture, auth setup, competitive positioning, roadmap. Customer-engagement detail anonymized for public publication.</li>
-      <li><a href="mcp-registry/catalog-deck/">MCP Registry &amp; Catalog</a> — Slide deck covering MCP Registry and Catalog capabilities, lifecycle governance, pre-loaded MCP servers, and the roadmap from Dev Preview through GA.</li>
-      <li><a href="mcp-registry/overview/">MCP Registry — Targeted User Stories</a> — Scrolling deck framing the Registry problem/solution via targeted user stories for RHOAI 3.5 Dev Preview.</li>
-      <li><a href="mcp-registry/ui-prototype/">MCP Registry UI Prototype (MLflow-style)</a> — Interactive client-rendered mockups (&quot;MLflow — MCP Servers&quot;) of the Registry list/detail/version UI; v0.2 is the more developed iteration.</li>
-      <li><a href="narrative/mcp-spec-rc-impact/">MCP 2026-07-28 RC — RHOAI Impact Analysis</a> — Cross-cutting analysis of the MCP protocol&#x27;s 2026-07-28 RC breaking changes and impact across Gateway, Registry, Catalog/Lifecycle Operator/Studio, and OGX/Llama Stack Operator.</li>
-      <li><a href="skills-registry/strategy-presentation/">Skills Registry Strategy</a> — &quot;Skills Are the Next AI Asset Class&quot; — strategy deck for the Skills Registry proposal.</li>
-  </ul>
-    <p class="meta">hub commit: b86d871327078b610cdc815dfe4e458abdf0dd08</p>
-  <p class="meta">Generated from publish/manifest.yaml — do not edit by hand.</p>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>RHOAI Agentic Hub</h1>
+      <p class="tagline">Published enablement and strategy artifacts for agentic AI
+        on Red Hat OpenShift AI: MCP governance, agent infrastructure, and the
+        cross-feature stories behind them.</p>
+      <p class="stats">15 published artifacts · hub commit bf2368aad2ab4a0e5d83b93475ae9cd09275bc22</p>
+    </div>
+  </header>
+  <main>
+    <div class="main-inner">
+      <section class="area">
+        <h2>Skills Registry</h2>
+        <div class="cards">
+        <a class="card" href="skills-registry/strategy-presentation/">
+          <h3>Skills Registry Strategy</h3>
+          <p>&quot;Skills Are the Next AI Asset Class&quot; — strategy deck for the Skills Registry proposal.</p>
+        </a>
+        </div>
+      </section>
+      <section class="area">
+        <h2>MCP Gateway</h2>
+        <div class="cards">
+        <a class="card" href="mcp-gateway/rhcl/">
+          <h3>MCP Gateway Knowledge Hub</h3>
+          <p>23-page understand/sell/build/govern/plan enablement site for MCP Gateway on Red Hat Connectivity Link — architecture, auth setup, competitive positioning, roadmap. Customer-engagement detail anonymized for public publication.</p>
+        </a>
+        <a class="card" href="mcp-gateway/overview/">
+          <h3>MCP Gateway — Enterprise Overview</h3>
+          <p>Scrolling one-pager positioning &quot;The Enterprise MCP Gateway&quot; for RHOAI.</p>
+        </a>
+        <a class="card" href="mcp-gateway/presentation/">
+          <h3>MCP Gateway — Slide Deck</h3>
+          <p>Keyboard-navigated slide deck presenting MCP Gateway for RHOAI.</p>
+        </a>
+        <a class="card" href="mcp-gateway/authz-audit/">
+          <h3>MCP Gateway — Tool-Call Authorization &amp; Audit</h3>
+          <p>Deck covering tool-call authorization and audit trail design.</p>
+        </a>
+        </div>
+      </section>
+      <section class="area">
+        <h2>MCP Registry</h2>
+        <div class="cards">
+        <a class="card" href="mcp-registry/catalog-deck/">
+          <h3>MCP Registry &amp; Catalog</h3>
+          <p>Slide deck covering MCP Registry and Catalog capabilities, lifecycle governance, pre-loaded MCP servers, and the roadmap from Dev Preview through GA.</p>
+        </a>
+        <a class="card" href="mcp-registry/ui-prototype/">
+          <h3>MCP Registry UI Prototype (MLflow-style)</h3>
+          <p>Interactive client-rendered mockups (&quot;MLflow — MCP Servers&quot;) of the Registry list/detail/version UI; v0.2 is the more developed iteration.</p>
+        </a>
+        <a class="card" href="mcp-registry/overview/">
+          <h3>MCP Registry — Targeted User Stories</h3>
+          <p>Scrolling deck framing the Registry problem/solution via targeted user stories for RHOAI 3.5 Dev Preview.</p>
+        </a>
+        </div>
+      </section>
+      <section class="area">
+        <h2>MCP Ecosystem</h2>
+        <div class="cards">
+        <a class="card" href="mcp-ecosystem/mcp-catalog-blog-preview/">
+          <h3>Blog preview — &quot;The MCP catalog is here&quot;</h3>
+          <p>Red Hat blog mockup preview announcing the MCP catalog, with partner/vendor logo assets.</p>
+        </a>
+        <a class="card" href="mcp-ecosystem/ingestion-pipeline/">
+          <h3>MCP Ingestion Pipeline</h3>
+          <p>Scrolling deck with an inline Cytoscape.js diagram of the end-to-end MCP ingestion pipeline.</p>
+        </a>
+        <a class="card" href="mcp-ecosystem/hub/">
+          <h3>MCP Management Knowledge Hub</h3>
+          <p>22-page enablement site covering the full MCP ecosystem (Gateway, Registry, Catalog, Lifecycle Operator) across understand/sell/build/govern/plan. Customer-engagement detail anonymized for public publication.</p>
+        </a>
+        <a class="card" href="mcp-ecosystem/deck/">
+          <h3>The MCP Ecosystem on OpenShift AI</h3>
+          <p>Scrolling overview deck of the MCP ecosystem (Gateway, Catalog, Lifecycle Operator) with custom illustration assets.</p>
+        </a>
+        </div>
+      </section>
+      <section class="area">
+        <h2>Agent Memory</h2>
+        <div class="cards">
+        <a class="card" href="agent-memory/architecture-options/">
+          <h3>Agent Memory Architecture — Options &amp; Roadmap</h3>
+          <p>Architecture options and roadmap deck for agent memory on RHOAI.</p>
+        </a>
+        <a class="card" href="agent-memory/series/">
+          <h3>Agent Memory Presentation Series</h3>
+          <p>Six-part interlinked HTML series — starter guide, foundations, deep dives, enterprise use cases, and strategy — for agent memory &amp; knowledge enablement.</p>
+        </a>
+        </div>
+      </section>
+      <section class="area">
+        <h2>Narrative</h2>
+        <div class="cards">
+        <a class="card" href="narrative/mcp-spec-rc-impact/">
+          <h3>MCP 2026-07-28 RC — RHOAI Impact Analysis</h3>
+          <p>Cross-cutting analysis of the MCP protocol&#x27;s 2026-07-28 RC breaking changes and impact across Gateway, Registry, Catalog/Lifecycle Operator/Studio, and OGX/Llama Stack Operator.</p>
+        </a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">Generated from publish/manifest.yaml. Do not edit
+      by hand. Source repo:
+      <a href="https://github.com/solaius/rhoai-agentic-hub">rhoai-agentic-hub</a>.</div>
+  </footer>
 </body>
 </html>

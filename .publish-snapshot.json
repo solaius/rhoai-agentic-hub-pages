@@ -1,17 +1,92 @@
 {
-  "agent-memory/architecture-options": "features/agent-memory/enablement/agent-memory-architecture-options",
-  "agent-memory/series": "features/agent-memory/enablement/agent-memory-series",
-  "mcp-ecosystem/deck": "features/mcp-ecosystem/enablement/mcp-ecosystem-deck",
-  "mcp-ecosystem/hub": "features/mcp-ecosystem/enablement/management-hub",
-  "mcp-ecosystem/ingestion-pipeline": "features/mcp-ecosystem/enablement/ingestion-pipeline",
-  "mcp-ecosystem/mcp-catalog-blog-preview": "features/mcp-ecosystem/enablement/mcp-catalog-blog-preview",
-  "mcp-gateway/authz-audit": "features/mcp-gateway/enablement/authz-audit",
-  "mcp-gateway/overview": "features/mcp-gateway/enablement/mcp-gateway-overview",
-  "mcp-gateway/presentation": "features/mcp-gateway/enablement/mcp-gateway-presentation",
-  "mcp-gateway/rhcl": "features/mcp-gateway/enablement/rhcl-hub",
-  "mcp-registry/catalog-deck": "features/mcp-registry/enablement/mcp-registry-catalog-deck",
-  "mcp-registry/overview": "features/mcp-registry/enablement/registry-overview",
-  "mcp-registry/ui-prototype": "features/mcp-registry/enablement/registry-ui-prototype",
-  "narrative/mcp-spec-rc-impact": "narrative/enablement/mcp-spec-rc-impact",
-  "skills-registry/strategy-presentation": "features/skills-registry/enablement/strategy-presentation"
+  "agent-memory/architecture-options": {
+    "badge": null,
+    "hash": "cb163fcb57a8dbeab1dc90c5f4ef84fa2739c7fa8813e5ab5b8e2b145d458317",
+    "published": null,
+    "source": "features/agent-memory/enablement/agent-memory-architecture-options"
+  },
+  "agent-memory/series": {
+    "badge": null,
+    "hash": "2e861b3c6c1ec68513f0ff458212ba7c543acd633a78c3a710bac4d74eecdeda",
+    "published": null,
+    "source": "features/agent-memory/enablement/agent-memory-series"
+  },
+  "mcp-ecosystem/deck": {
+    "badge": null,
+    "hash": "503764b5012970c63b400e5eac7d60974d976c529a564af84f1083699bc19143",
+    "published": null,
+    "source": "features/mcp-ecosystem/enablement/mcp-ecosystem-deck"
+  },
+  "mcp-ecosystem/hub": {
+    "badge": null,
+    "hash": "c9617a45b50d4b5448e19b3dec77f7fad8690a1f787cda3ddca833578bde3c80",
+    "published": null,
+    "source": "features/mcp-ecosystem/enablement/management-hub"
+  },
+  "mcp-ecosystem/ingestion-pipeline": {
+    "badge": null,
+    "hash": "3dc204450df3962e8ed01b088dc76170fbc241f5bf243d9e889d10677a6f76d6",
+    "published": null,
+    "source": "features/mcp-ecosystem/enablement/ingestion-pipeline"
+  },
+  "mcp-ecosystem/mcp-catalog-blog-preview": {
+    "badge": null,
+    "hash": "d97d2cd6fd81ad24f333ee60c97d45dc52cc9724fcb5842d34ebd45c20e952ae",
+    "published": null,
+    "source": "features/mcp-ecosystem/enablement/mcp-catalog-blog-preview"
+  },
+  "mcp-gateway/authz-audit": {
+    "badge": null,
+    "hash": "259814877e3271ba2a4f6e2b37a7516d66d162abc06eadf7260bf4aad22e35ad",
+    "published": null,
+    "source": "features/mcp-gateway/enablement/authz-audit"
+  },
+  "mcp-gateway/overview": {
+    "badge": null,
+    "hash": "57b19da89272b74bdf7bb3183b029b777beab9b799b161042182c2636c2ddba1",
+    "published": null,
+    "source": "features/mcp-gateway/enablement/mcp-gateway-overview"
+  },
+  "mcp-gateway/presentation": {
+    "badge": null,
+    "hash": "762cb541ba35c12039a359d4fb223349a97285cacf785e3d98f7e65d8bb95d87",
+    "published": null,
+    "source": "features/mcp-gateway/enablement/mcp-gateway-presentation"
+  },
+  "mcp-gateway/rhcl": {
+    "badge": null,
+    "hash": "68a24137857ba7ade03684bec4bc385af353da8e1293515d1f00d574232cb074",
+    "published": null,
+    "source": "features/mcp-gateway/enablement/rhcl-hub"
+  },
+  "mcp-registry/catalog-deck": {
+    "badge": null,
+    "hash": "a3f6674d46c26e866e85b34cd3b565ab1f34b99ce1c88d17f35058e0d7ef3e35",
+    "published": null,
+    "source": "features/mcp-registry/enablement/mcp-registry-catalog-deck"
+  },
+  "mcp-registry/overview": {
+    "badge": null,
+    "hash": "47be49a0da1fc59f34160403fa5cebd15f16c444afe8147777461ce797bc22c9",
+    "published": null,
+    "source": "features/mcp-registry/enablement/registry-overview"
+  },
+  "mcp-registry/ui-prototype": {
+    "badge": null,
+    "hash": "6f1a916627fa0b955b0a64d18656408845bfc53ab9fb43af4fa2fbaf7d111a66",
+    "published": null,
+    "source": "features/mcp-registry/enablement/registry-ui-prototype"
+  },
+  "narrative/mcp-spec-rc-impact": {
+    "badge": null,
+    "hash": "4a67482f123beab30db1cdb8a39a71e16bca9d331cd2a0a00464c01565ebc538",
+    "published": null,
+    "source": "narrative/enablement/mcp-spec-rc-impact"
+  },
+  "skills-registry/strategy-presentation": {
+    "badge": null,
+    "hash": "56b4f7557b6305a8e210dc77c18288cfa99b61fc2ff09c04c159e212ab8ca617",
+    "published": null,
+    "source": "features/skills-registry/enablement/strategy-presentation"
+  }
 }
