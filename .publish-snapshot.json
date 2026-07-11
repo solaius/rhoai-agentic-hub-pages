@@ -19,7 +19,7 @@
   },
   "mcp-ecosystem/hub": {
     "badge": "updated",
-    "hash": "59666c5bd1f4a2a7fc5e09f8e0e9b3e24ee3d68dcac2ada9a1d3fc6383cfbd3f",
+    "hash": "1e5950bee1f2fd6348be30c4f558811940f8d287ee5c888792f6ac0af88ed137",
     "published": "2026-07-11",
     "source": "features/mcp-ecosystem/enablement/management-hub"
   },
