@@ -72,9 +72,9 @@
     "source": "features/mcp-registry/enablement/registry-ui-prototype"
   },
   "narrative/mcp-spec-rc-impact": {
-    "badge": null,
-    "hash": "4a67482f123beab30db1cdb8a39a71e16bca9d331cd2a0a00464c01565ebc538",
-    "published": null,
+    "badge": "updated",
+    "hash": "3c6d1dec1030bb9cb8213a3dff085d8379fc87f116061477b0397570d426b283",
+    "published": "2026-07-29",
     "source": "narrative/enablement/mcp-spec-rc-impact"
   },
   "skills-registry/strategy-presentation": {
