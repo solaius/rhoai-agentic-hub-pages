@@ -3,7 +3,7 @@ type: artifact
 title: MCP Registry — Targeted User Stories
 description: Scrolling deck framing the Registry problem/solution via targeted user stories for RHOAI 3.5 Dev Preview.
 timestamp: 2026-07-09
-features: [mcp-registry]
+components: [mcp-registry]
 source: migrated from ai-asset-registry/mcps/mcp-registry/mcp-registry-overview.html (HTML sets 2-4, clean batch)
 ---
 Self-contained; entry point index.html. Its "Registry Prototype" link was
