@@ -67,9 +67,9 @@
   },
   "mcp-registry/ui-prototype": {
     "badge": "updated",
-    "hash": "88e6ae33f4d8f8b7236e746a4e818b5a58eded28bf645ae395cbe04682204b5b",
-    "published": "2026-08-01",
-    "source": "components/mcp-registry/enablement/registry-ui-prototype"
+    "hash": "7b069470c32dd0017193896927a6bb3ebb5f1d99a56f9c841cd609b8489006c0",
+    "published": "2026-08-02",
+    "source": "components/mcp-registry/prototype/registry-ui/v2"
   },
   "narrative/mcp-spec-rc-impact": {
     "badge": "updated",
