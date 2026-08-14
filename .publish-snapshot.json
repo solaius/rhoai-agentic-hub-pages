@@ -31,8 +31,8 @@
   },
   "mcp-ecosystem/mcp-catalog-blog-preview": {
     "badge": "updated",
-    "hash": "5a98f64b2cf2a75a991370dacc2ed2c21668a75827fa3b29f4b8d611194df525",
-    "published": "2026-08-01",
+    "hash": "9f2da906b29fe19d7819feb9d7c7471387536d190ce7bb6b5aaad4a2667bf463",
+    "published": "2026-08-14",
     "source": "components/mcp-ecosystem/enablement/mcp-catalog-blog-preview"
   },
   "mcp-gateway/authz-audit": {
@@ -67,8 +67,8 @@
   },
   "narrative/mcp-spec-rc-impact": {
     "badge": "updated",
-    "hash": "1aa3486712be52b40f0ab5c8cbd6b0378a79d242b0776d5e1c3cbc40f6a65127",
-    "published": "2026-08-01",
+    "hash": "4ba4181ac420bbf0d976b8e40fb416e1b3ffb290c77e18fd59b0d6292f01b020",
+    "published": "2026-08-14",
     "source": "narrative/enablement/mcp-spec-rc-impact"
   },
   "skills-registry/strategy-presentation": {
